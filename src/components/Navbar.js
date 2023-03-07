@@ -29,9 +29,9 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
-            <i class='fab fa-typo3' />
-          </Link>
+            KAMPILYA FARMS 
+            
+          </Link><img src='images/kflogo.jpg' alt='Kampilya Farms' height='40px'></img>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -47,7 +47,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Blog
               </Link>
             </li>
             <li className='nav-item'>
@@ -56,21 +56,30 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Vegetables
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/contactdetails'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link
-                to='/sign-up'
+                to='/contactdetails'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>Contact</Button>} */}
         </div>
       </nav>
     </>
