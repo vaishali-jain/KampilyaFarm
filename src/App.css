@@ -5,6 +5,7 @@
   font-family:  sans-serif;
 }
 .flex-container {
+
   display: flex;
   background-color: #f1f1f1;
   flex-wrap: wrap; /* in mobile responsive apps, the items will wrap to next line */
@@ -56,7 +57,7 @@
   width: 40%;
   text-align: center;
   font-weight: bold;
-  margin-top:10px;
+  margin-top:10px;  
 }
 .custom-color{
   color:red;
@@ -172,9 +173,23 @@ flex-wrap: wrap;
 .custom-text{
   margin:5px;
 }
+.custom-margin{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 ul{
   list-style-type: none;
 }
+.dotul{
+  list-style-type:disc;
+}
 li{
   margin:5px;
+}
+li:first-child{
+  list-style-type: none;
+}
+customli{
+  list-style-type: none;
+  text-align: center;
 }

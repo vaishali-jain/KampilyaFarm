@@ -31,7 +31,8 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             KAMPILYA FARMS 
             
-          </Link><img src='images/kflogo.jpg' alt='Kampilya Farms' height='40px'></img>
+          </Link>
+            {<img src='images/logokf.jpg' alt='Kampilya Farms' height='40px'></img> }
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -52,11 +53,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/saptarishi'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Vegetables
+                Saptarishi
               </Link>
             </li>
             <li className='nav-item'>

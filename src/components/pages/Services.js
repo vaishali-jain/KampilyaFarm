@@ -8,9 +8,9 @@ export default function Services() {
       <div className='services-center'>
       <ul className='custom-font custom-color'>
        
-          <li><b> KNOW YOUR FARMER. KNOW YOUR FOOD.</b></li>
-           <li><b>TURN OFF YOUR NETFLIX AND LOOKOUT FOR YOUR FARMER.</b></li>
-           <li><b>BUILD DIRECT CHAINS OF CONTACT WITH FARMERS FOR YOUR NUTRITION.</b></li>
+          <li className='custom-margin'><b>KNOW YOUR FARMER. KNOW YOUR FOOD.</b></li>
+           <li  className='custom-margin'><b>TURN OFF YOUR NETFLIX AND LOOKOUT FOR YOUR FARMER.</b></li>
+           <li  className='custom-margin'><b>BUILD DIRECT CHAINS OF CONTACT WITH FARMERS FOR YOUR NUTRITION.</b></li>
 
         
         {/* <li>
@@ -25,7 +25,7 @@ export default function Services() {
 
       </ul>
       </div>
-      <div className='blog-flex-container custom-font'><p className='custom-text'><b>Some of the special characteristics and features of Sona Moti wheat are:</b></p>
+      {/* <div className='blog-flex-container custom-font'><p className='custom-text'><b>Some of the special characteristics and features of Sona Moti wheat are:</b></p>
 
         <p className='custom-text'><b>High Yield:</b> Sona Moti wheat is known for its high yield potential, which means that it can produce more grains per unit area compared to other varieties of wheat.
         </p>
@@ -60,7 +60,7 @@ export default function Services() {
         </p>
         <p className='custom-text'>Overall, Bansi wheat is a high-yielding, good-quality variety of wheat that is well-suited to the growing conditions in India. It is particularly popular in the states of Uttar Pradesh and Bihar due to its early maturity and adaptability to different soil and climatic conditions.
         </p></div>
-
+ */}
 
 
 
