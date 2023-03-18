@@ -14,3 +14,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 It is important to note that the specific growing conditions for Sona Moti wheat may vary depending on your location and climate</li>
 
 Shift + Alt + F to format the code
+
+deploy code using vercel(in terminal window): npm i -g vercel
+CNAME	www	kampilyafarms.com.	1 Hour
