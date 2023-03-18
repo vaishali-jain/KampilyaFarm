@@ -7,7 +7,7 @@ export default function Saptarishi() {
       <h1 className='services'>Saptarishi</h1>
       <div className='services-center'>
       <ul className='custom-font'>
-       <li><img src='Images/Saptarishi.png' width='250px' height='250px' alt='Saptarishi'></img></li>
+       <li><img src='/Images/Saptarishi.png' width='250px' height='250px' alt='Saptarishi'></img></li>
     <li>Saptarishi refers to the seven sages or rishis who are said to have attained enlightenment and spiritual knowledge through deep meditation
        and introspection. </li>
        <li>The Saptarishi are named after the seven stars of the Big Dipper constellation, which is also known as Saptarishi Mandala. 

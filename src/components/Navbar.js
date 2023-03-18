@@ -32,7 +32,7 @@ function Navbar() {
             KAMPILYA FARMS 
             
           </Link>
-            {<img src='images/logokf.jpg' alt='Kampilya Farms' height='40px'></img> }
+            {<img src='/images/logokf.jpg' alt='Kampilya Farms' height='40px'></img> }
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

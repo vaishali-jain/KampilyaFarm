@@ -5,7 +5,7 @@ export default function Saptarishi() {
   return (
     <>
       <h1 className='services'>Saptarishi</h1>
-      <div className='blog-flex-container'><img src='Images/Saptarishi.png' width='250px' height='250px' alt='Saptarishi'></img>
+      <div className='blog-flex-container'><img src='/Images/Saptarishi.png' width='250px' height='250px' alt='Saptarishi'></img>
       <ul className='custom-font dotul'>
        <li className='item-description'><b><i>Who are saptarishi?</i></b></li>
 
